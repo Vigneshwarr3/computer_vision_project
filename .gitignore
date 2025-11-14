@@ -50,16 +50,6 @@ best_vit_model.pth
 checkpoints/
 models/
 
-# Training outputs and visualizations
-*.png
-*.jpg
-*.jpeg
-training_curves*.png
-predictions*.png
-vit_training_curves.png
-vit_predictions.png
-training_curves_*.png
-predictions_*.png
 
 # SLURM job outputs
 *.out
