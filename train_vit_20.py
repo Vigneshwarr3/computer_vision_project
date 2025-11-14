@@ -397,7 +397,7 @@ def main():
     
     # Train model
     print("Starting training...")
-    history = train_model(model, train_loader, test_loader, num_epochs=10, lr=0.001)
+    history = train_model(model, train_loader, test_loader, num_epochs=20, lr=0.001)
     print()
     
     # Load best model
